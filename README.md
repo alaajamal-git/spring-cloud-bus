@@ -10,7 +10,7 @@ spring-boot-starter-actuator used to get the post request to make the Config-Ser
 
 Run example steps:
 
-1. post : http://10.3.14.48:8011/users-ws/users
+1. post : http://localhost:8011/users-ws/users
    body : 
    <UserResposeModel>
     <firatname>Ziad</firatname>
@@ -19,7 +19,7 @@ Run example steps:
     <userId>2eeaec6f-4092-46d1-ba23-b84ce1006d97</userId>
    </UserResposeModel>
    
-2. post : http://10.3.14.48:8011/users-ws/users/login
+2. post : http://localhost:8011/users-ws/users/login
    body :
     {
     "email":"alaajamal470@gmail.com",
