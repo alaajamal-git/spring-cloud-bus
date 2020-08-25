@@ -32,4 +32,7 @@ Run example steps:
    
 4. change the "token.date.expired" on your private git account and send the refresh request to Config-Server:
 post : http://localhost:8012/actuator/bus-refresh. Re-do the step 2 and 3 you will see the new value of your property.
+
+<h2>appication architecture<h2>
+<img src="diagram.jpg"/>
     
